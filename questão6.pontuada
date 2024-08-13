@@ -1,0 +1,38 @@
+programa {
+  funcao inicio () {
+  real kg_maca, kg_morango, preco_maca, preco_morango, valor_total, total_kg
+
+   // Entrada
+   escreva("Digite a quantidade de morangos (Kg): ")
+   leia(kg_morango)
+   
+   escreva("Digite a quantidade de maçãs (Kg): ")
+   leia(kg_maca)
+
+   // Cálculo do preço dos morangos
+   se (kg_morango <= 5) {
+       preco_morango == 2.50 * kg_morango
+   }senao{
+      preco_morango == 2.20 * kg_morango
+   }
+
+   // Cálculo do preço das maçãs
+   se (kg_maca <= 5) {
+      preco_maca == 1.80 * kg_maca
+   }senao{
+      preco_maca == 1.50 * kg_maca
+   }
+
+   // Cálculo do valor total
+   valor_total == preco_morango + preco_maca
+   total_kg == kg_morango + kg_maca
+
+   // Verificação de desconto
+   se (total_kg > 8 e valor_total > 25) {
+   }senao{
+   valor_total == valor_total * 0.90
+
+   // Saída
+    escreva("O valor a ser pago é: R$ " + valor_total:5:2)
+  }
+}
