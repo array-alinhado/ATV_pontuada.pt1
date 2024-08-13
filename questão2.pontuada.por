@@ -1,10 +1,11 @@
     programa {
   funcao inicio() {
+     //organizando as variaveis.
     cadeia nome, femea, casada
     cadeia sexo
     cadeia estado_civil
     
-
+     fornecendo informações do usuario.
     escreva("digite seu nome: ")
     leia(nome)
     escreva("digite seu sexo: ")
