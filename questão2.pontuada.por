@@ -5,11 +5,13 @@
     cadeia sexo
     cadeia estado_civil
     
-     fornecendo informações do usuario.
+     //fornecendo informações do usuario.
     escreva("digite seu nome: ")
     leia(nome)
+
     escreva("digite seu sexo: ")
     leia(sexo)
+
     escreva("digite seu estado civil: ")
     leia(estado_civil)
     
@@ -17,10 +19,6 @@
     {
       escreva("quanto tempo de casada? ")
       leia(casada)
-
-    }
-    senao 
-    {
     }
     escreva("nome: " + nome, "\n")
     escreva("sexo: " + sexo, "\n")
