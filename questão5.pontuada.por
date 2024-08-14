@@ -19,8 +19,8 @@ programa {
     escreva("\naprovado!!!")
     }senao{
     se (media >= 4 e media < 6)
-    escreva("\nesta em recuperação!!!")
-    escreva("\ninforme a nota da sua recuperação: ")
+    escreva("\nesta em recuperaï¿½ï¿½o!!!")
+    escreva("\ninforme a nota da sua recuperaï¿½ï¿½o: ")
     leia(recuperacao)
     se (recuperacao >= 6){
     escreva("aprovado!!!!")
@@ -31,7 +31,5 @@ programa {
     }
   
     }
-    
-
   }
 }
