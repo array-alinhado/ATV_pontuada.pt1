@@ -29,7 +29,6 @@ programa {
     {
       escreva("reprovado!!!!")
     }
-  
     }
   }
 }
